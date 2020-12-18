@@ -1,5 +1,7 @@
 '''
-A good understanding of data structures is integral for programming and data analysis. As a data analyst, you will be working with data and code all the time, so a solid understanding of what data types and data structures are available and when to use each one will help you write more efficient code.
+A good understanding of data structures is integral for programming and data analysis. 
+As a data analyst, you will be working with data and code all the time, so a solid understanding 
+of what data types and data structures are available and when to use each one will help you write more efficient code.
 
 Remember, you can get more practice on sites like HackerRank.
 
@@ -10,7 +12,8 @@ List	            Yes	            Yes	        [ ] or list()	    [5.7, 4, 'yes', 5
 Tuple	            Yes	            No	        ( ) or tuple()	    (5.7, 4, 'yes', 5.7)
 Set	                No	            Yes	        {}* or set()	    {5.7, 4, 'yes'}
 Dictionary	        No	            No**	    { } or dict()	    {'Jun': 75, 'Jul': 89}
-* You can use curly braces to define a set like this: {1, 2, 3}. However, if you leave the curly braces empty like this: {} Python will instead create an empty dictionary. So to create an empty set, use set().
+* You can use curly braces to define a set like this: {1, 2, 3}. However, if you leave the curly 
+  braces empty like this: {} Python will instead create an empty dictionary. So to create an empty set, use set().
 ** A dictionary itself is mutable, but each of its individual keys must be immutable.
 '''
 
@@ -22,7 +25,9 @@ Dictionary   mutable        unordered    un-sortable   to add -- .update      {}
 '''
 '''
 Quiz: List Indexing
-Use list indexing to determine how many days are in a particular month based on the integer variable month, and store that value in the integer variable num_days. For example, if month is 8, num_days should be set to 31, since the eighth month, August, has 31 days.
+Use list indexing to determine how many days are in a particular month based 
+on the integer variable month, and store that value in the integer variable num_days. 
+For example, if month is 8, num_days should be set to 31, since the eighth month, August, has 31 days.
 
 Remember to account for zero-based indexing!
 '''
@@ -127,7 +132,9 @@ print(population['Mumbai'])
 
 '''
 Quiz: Adding Values to Nested Dictionaries
-Try your hand at working with nested dictionaries. Add another entry, 'is_noble_gas,' to each dictionary in the elements dictionary. After inserting the new entries you should be able to perform these lookups:
+Try your hand at working with nested dictionaries. Add another entry, 'is_noble_gas,' 
+to each dictionary in the elements dictionary. After inserting the new entries you should 
+be able to perform these lookups:
 '''
 elements = {'hydrogen': {'number': 1, 'weight': 1.00794, 'symbol': 'H'},
             'helium': {'number': 2, 'weight': 4.002602, 'symbol': 'He'}}
@@ -143,7 +150,8 @@ print(elements)
 
 '''
 Quiz: Count Unique Words
-Your task for this quiz is to find the number of unique words in the text. In the code editor below, complete these three steps to get your answer.
+Your task for this quiz is to find the number of unique words in the text. 
+In the code editor below, complete these three steps to get your answer.
 
 Split verse into a list of words. Hint: You can use a string method you learned in the previous lesson.
 Convert the list into a data structure that would keep only the unique elements from the list.
@@ -166,14 +174,17 @@ print(num_unique, '\n')
 
 '''
 Quiz: Verse Dictionary
-In the code editor below, you'll find a dictionary containing the unique words of verse stored as keys and the number of times they appear in verse stored as values. Use this dictionary to answer the following questions. Submit these answers in the quiz below the code editor.
+In the code editor below, you'll find a dictionary containing the unique words of verse stored as keys 
+and the number of times they appear in verse stored as values. Use this dictionary to answer the following 
+questions. Submit these answers in the quiz below the code editor.
 
 Try to answer these using code, rather than inspecting the dictionary manually!
 
 How many unique words are in verse_dict?
 Is the key "breathe" in verse_dict?
 What is the first element in the list created when verse_dict is sorted by keys?
-Hint: Use the appropriate dictionary method to get a list of its keys, and then sort that list. Use this list of keys to answer the next two questions as well.
+Hint: Use the appropriate dictionary method to get a list of its keys, and then sort that list. 
+Use this list of keys to answer the next two questions as well.
 Which key (word) has the highest value in verse_dict?
 '''
 
